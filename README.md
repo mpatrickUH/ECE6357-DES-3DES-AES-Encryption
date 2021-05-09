@@ -1,12 +1,10 @@
 #ECE6357-DES-3DES-AES-Encryption
 #All .mat files are message/keys used to test the code. At this time, this code is not set up to be able to take any kind of input. It only takes hex message/keys but as far as I can tell it is working correctly.
 
-#DES.m
-#Used as a 1 shot to both encrypt/decrypt at the same time. Calls DES_encrypt.m & DES_decrypt.m
-#DES_encrypt.m
-#The encryption algorithm as a function called by DES.m
-#DES_decrypt.m
-#The decryption algorithm as a function called by DES.m
+#DES.m - Used as a 1 shot to both encrypt/decrypt at the same time. Calls DES_encrypt.m & DES_decrypt.m
+#
+#DES_encrypt.m - The encryption algorithm as a function called by DES.m
+#DES_decrypt.m - The decryption algorithm as a function called by DES.m
 #  
 #DES_encrypt_.m
 #A stand-alone for the encryption used to find the time necessary for encryption. Exactly the same as DES_encrypt.m otherwise.
